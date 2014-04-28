@@ -21,9 +21,8 @@
     	font-size: 2.875em; /* 46/16 */
     	}
 
-    a {
-        color: #333;
-        text-decoration: none;
+    .little {
+        font-size: 50%;
         }
 
     </style>
@@ -31,6 +30,8 @@
 
 </head>
 <body>
-    <h1><a href="about.php">Hello World</a></h1>
+    <h1>Say Hello to my <span class="little">little friend</span></h1>
+
+    <p><?php echo "Today is " . date("d/m/Y");?></p>
 </body>
 </html>
