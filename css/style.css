@@ -2,7 +2,7 @@
 Project: Hello World Personal Page
 Project URI: http://timpotter.github.io
 Author: Tim Potter
-Author URI: http://littlethunder.co
+Author URI: https://littlethunder.co
 */
 
 
@@ -23,7 +23,7 @@ Author URI: http://littlethunder.co
 
 /* Typography */
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'poppins', serif;
   font-weight: 300;
   color: #444;
    -webkit-font-smoothing: antialiased;
@@ -35,8 +35,9 @@ header {
 }
 
 header p {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-weight: 300;
+
 }
 
 h1 {
@@ -44,6 +45,7 @@ h1 {
   font-size: 3em; /* 48/16 */
   margin-bottom: 40px;
   line-height: 1em;
+
 }
 
 p {
@@ -57,7 +59,7 @@ p {
 
 .about p {
   padding-bottom: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 footer p {
@@ -75,7 +77,7 @@ strong {
 
 a {
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   color: #333;
 }
 
